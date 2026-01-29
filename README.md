@@ -22,9 +22,9 @@ Functions:
 
 1. install the software:
 ```
-wget https://github.com/euchrogene/EffectorP3.0/raw/refs/heads/main/Install_EffectorP3.0.sh
-sudo bash Install_EffectorP3.0.sh
-sudo rm Install_EffectorP3.0.sh
+wget https://github.com/euchrogene/Localizer/raw/refs/heads/main/Install_Localizer.sh
+sudo bash Install_Localizer.sh
+sudo rm Install_Localizer.sh
 ```
 
 2. display installed software
@@ -39,12 +39,12 @@ wget https://github.com/euchrogene/EffectorP3.0/raw/refs/heads/main/Example_prot
 
 4. example command line
 ```
-EffectorP3.0 -i Example_protein.fa
+Localizer -i Example_protein.fa -e
 ```
 
 5. show help contents
 ```
-EffectorP3.0
+Localizer
 ```
 
 ## Help contents:
@@ -78,8 +78,6 @@ If you find any bugs, please email: bioinformatics@euchrogene.com
 ________________________________________________________________________________________________
 
 You can run this software by modifying the following example:
-
-Localizer -i test_prot.fa -o output_directory -E effector_fasta.fa -N non-effector_fasta.fa
 
 # General syntax
 Localizer -i <input_fasta> -o <output_directory> -e
@@ -123,5 +121,5 @@ ________________________________________________________________________________
 
 # Citation
 
-## EffectorP 3.0
-Sperschneider J, Dodds P. EffectorP 3.0: prediction of apoplastic and cytoplasmic effectors in fungi and oomycetes. Mol Plant Microbe Interact. 2021. doi: 10.1094/MPMI-08-21-0201-R
+## Localizer
+Sperschneider, J., Catanzariti, A., DeBoer, K. et al. LOCALIZER: subcellular localization prediction of both plant and effector proteins in the plant cell. Sci Rep 7, 44598 (2017) doi:10.1038/srep44598
