@@ -99,7 +99,7 @@ Usage;
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     
 Usage for LOCALIZER: 
-python LOCALIZER.py [-options] -i <input_file>
+Localizer [-options] -i <input_file>
 
 
 required option:
